@@ -7,21 +7,33 @@ public class ContaTerminal {
         Scanner sc = new Scanner(System.in);
 
         //Exibir as mensagens para o nosso usuário
-        System.out.println("Por favor Digite o numero da conta: ");
+        System.out.println("Por favor digite o numero da conta: ");
+        System.out.println("Em seguida pressione enter para continuar");
         int conta = sc.nextInt();
-        System.out.println("Presione enter para continuar");
+        System.out.println("........................................................................");
+        System.out.println("........................................................................");
 
-        System.out.println("Por favor Digite a agencia com o digito: ");
+        System.out.println("Por favor digite a agencia com o digito: ");
+        System.out.println("Ex: xxxx-x ");
+        System.out.println("Em seguida pressione enter para continuar");
         String agencia = sc.next();
-        System.out.println("Presione enter para continuar");
+        System.out.println("........................................................................");
+        System.out.println("........................................................................");
 
-        System.out.println("Por favor digite seu nome e sobrenome: ");
+
+        System.out.println("Por favor digite seu nome: ");
+        System.out.println("Em seguida pressione enter para continuar");
         String nomeCliente = sc.next();
-        System.out.println("Presione enter para continuar");
+        System.out.println("........................................................................");
+        System.out.println("........................................................................");
+
 
         System.out.println("Por favor digite seu saldo: ");
+        System.out.println("Em seguida pressione enter para continuar");
         double saldo = sc.nextDouble();
-        System.out.println("Presione enter para continuar");
+        System.out.println("........................................................................");
+        System.out.println("........................................................................");
+
 
 
         //Obter pelo scanner os valores digitados no terminal
@@ -30,7 +42,7 @@ public class ContaTerminal {
 
         System.out.println("........................................................................");
 
-        System.out.println("Olá " + nomeCliente +" , obrigado por criar uma conta em nosso banco, sua agência é" + agencia + " , conta" + conta + " e seu saldo " + saldo + " já está disponível para saque. ");
+        System.out.println("Olá " + nomeCliente +", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + " , conta " + conta + " e seu saldo R$" + saldo + " já está disponível para saque. ");
     
     };
 
